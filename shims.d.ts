@@ -12,14 +12,13 @@ declare namespace Time {
     //% blockId=rtc_ds_get_time
     //% block="the current time" shim=Time::getCurrentTime
     function getCurrentTime(): string{
-    basic.showLeds(`
-    . . # . .
-    . . # . .
-    . . # . .
-    . . # . .
-    . . # . .
-    `)
-
+   basic.showLeds(`
+    . . . . .
+    . # . # .
+    . . . . .
+    # . . . #
+    . # # # .
+    `);
     }
 
     /**
