@@ -12,7 +12,13 @@ declare namespace Time {
     //% blockId=rtc_ds_get_time
     //% block="the current time" shim=Time::getCurrentTime
     function getCurrentTime(): string{
-    basic.showNumber(Time.getTimePart(DateTimePart.Seconds))
+    basic.showLeds(`
+    . . # . .
+    . . # . .
+    . . # . .
+    . . # . .
+    . . # . .
+    `)
 
     }
 
