@@ -1,7 +1,7 @@
 // Auto-generated. Do not edit.
 
 
-    declare enum DateTimePart {
+    declare const enum DateTimePart {
     Seconds = 0,
     Minutes = 1,
     Hours = 2,
